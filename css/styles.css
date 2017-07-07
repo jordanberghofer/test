@@ -1,0 +1,56 @@
+body {
+	background-color: pink;
+}
+
+nav {
+	background-color: orange;
+	height: 30px;
+}
+
+nav li {
+	float: left;
+	list-style-type: none;
+	margin: 5px 15px 0 15px;
+	font-family: "Arial", "Helvetica", "Times New Roman";
+}
+
+nav li:hover {
+	color: white;
+}
+
+.wrapper {
+	background-color: white;
+	width: 90%;
+	margin-right: 0 auto;
+
+}
+
+.Murica {
+	width: 100%;
+	overflow: hidden;
+}
+
+h1, h2, h3 {
+	color: Crimson;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+main {
+	width: 70%;
+	float: left;
+}
+
+aside {
+	width: 30%;
+	float: right;
+}
+
+footer {
+	background-color: #000000;
+	color: #fff;
+	text-align: center;
+	clear: both;
+}
